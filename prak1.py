@@ -3,7 +3,10 @@ from tkinter import *
 
 root = Tk()
 
-btn = Button(root, text="Закрыть") 
+btn = Button(root,                  
+             text="Закрыть",       
+             width=30,height=5,     
+             bg="white",fg="black") 
 
 btn.bind("<Button-1>", exit)       
 btn.pack()                
